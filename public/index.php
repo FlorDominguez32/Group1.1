@@ -8,13 +8,13 @@
 
     <title>Document</title>
 </head>
-<div class="bg-gray-200 mt-28 text-center">Bienvenido</div>
+<div class="bg-gray-200 text-2xl text-center">¡Bienvenido de nuevo!</div>
 <body>
     <div class=" h-20 w-3/4 p-4 p-60 mx-80 my-44 mt-44
-    md:w-2/4 rounded-lg bg-gray-200  pt-44 pb-36 justify-center flex flex-col ">
+    md:w-2/4 rounded-lg bg-gray-200  pt-44 pb-36 justify-center flex flex-col space-y-6 ">
 
 
-    <h1 class="p-4 ">Log in</h1>
+    <h1 class="font-black text-center">Log in</h1>
 
         <div>
             <label>Email:</label>
@@ -27,7 +27,7 @@
         </div>
 
         <div class="p-3 ">
-            <button type="submit" onclick="guardarEnStorage()" class="rounded-full relative w-44 h-5 bg-white-600 ">Enviar</button>
+            <button type="submit" onclick="guardarEnStorage()" class="rounded-full relative w-44 h-50 bg-blue-900 text-white ">Iniciar sesión</button>
         </div>
     </div>
 
